@@ -4,9 +4,9 @@
   }
 
   .item {
-      color:yellow;
+      color:black;
   }
 
-  .item.active {
-      color:greenyellow;
+  .item a.active {
+      color:gold;
   }
