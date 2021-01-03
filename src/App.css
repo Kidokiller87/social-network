@@ -16,7 +16,7 @@
 .app-wrapper-content {
 
   grid-area: c;
-  background-color: rgb(255, 251, 251);
+  background-color: rgb(255, 251, 251)
 }
 .content img {
   margin:0 auto;
