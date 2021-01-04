@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e744c47-7a91-4efa-b0e5-32ca0c59973a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/Profileinfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/Message" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,7 +45,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs\Message" />
+      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs\DialogItem" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Profile\Profileinfo" />
+      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs" />
     </key>
   </component>
@@ -64,7 +69,7 @@
       <workItem from="1609394233710" duration="4841000" />
       <workItem from="1609696292716" duration="9383000" />
       <workItem from="1609741398251" duration="5819000" />
-      <workItem from="1609778529813" duration="6866000" />
+      <workItem from="1609778529813" duration="10402000" />
     </task>
     <servers />
   </component>
