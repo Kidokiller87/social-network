@@ -13,8 +13,7 @@ import {BrowserRouter, Route} from "react-router-dom"
 
 
 const App = (props) => {
-    return <BrowserRouter>
-
+    return (
             <div className="app-wrapper">
                 <Header/>
                 <Navbar/>
@@ -30,8 +29,8 @@ const App = (props) => {
                 </div>
             </div>
 
-        </BrowserRouter>
 
+    )
 };
 
 export default App;
