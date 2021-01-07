@@ -1,3 +1,4 @@
+import {rerenderEntireTree} from "../../render";
 
 
 let state = {
@@ -40,7 +41,7 @@ debugger;
     };
 
     state.profilePage.posts.push(newPost);
+    rerenderEntireTree(state);
 }
-
 
 export default state;
