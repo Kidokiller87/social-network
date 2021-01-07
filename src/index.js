@@ -1,5 +1,5 @@
 
-import state, {subscribe} from "./components/redux/state";
+import state, {addMessage, subscribe, updateMessageText} from "./components/redux/state";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -14,7 +14,11 @@ let rerenderEntireTree = (state) => {
     ReactDOM.render(
         <BrowserRouter>
             <React.StrictMode>
-                <App state = {state} addPost={addPost} updateNewPostText={updateNewPostText}/>
+                <App state = {state}
+                     addPost={addPost}
+                     updateNewPostText={updateNewPostText}
+                     addMessage ={addMessage}
+                     updateMessageText = {updateMessageText}/>
             </React.StrictMode>
         </BrowserRouter>,
         document.getElementById('root')

@@ -2,13 +2,12 @@ import React from "react";
 //import logo from './logo.svg';
 import "./App.css";
 import Header from './components/Header/Header';
-
-
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 import Dialogs from './components/Dialogs/Dialogs';
 //import {BrowserRouter} from "react-router-dom";
 import {BrowserRouter, Route} from "react-router-dom"
+import state from "./components/redux/state";
 
 
 
@@ -22,7 +21,10 @@ const App = (props) => {
                     <Route path='/profile' component={Profile} />*/}
 
                     <Route path='/dialogs'
-                           render={ () => <Dialogs state = {props.state.dialogsPage}/>} />
+                           render={ () => <Dialogs state = {props.state.dialogsPage}
+                                                   updateMessageText = {props.updateMessageText}
+                                                   newMessageText={props.state.dialogsPage.newMessageText}
+                                                   addMessage = {props.addMessage}/>} />
                     <Route path='/profile'
                            render={ () => <Profile profilePage ={props.state.profilePage}
                                                    addPost = {props.addPost}

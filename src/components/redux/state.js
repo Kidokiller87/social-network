@@ -30,10 +30,28 @@ let state = {
             {id: 5, name: 'Viktar'},
             {id: 6, name: 'Max'},
         ],
+        newMessageText:'LIFE IS GOOD!'
 }
 }
 
 window.state = state;
+
+export const addMessage = () => {
+    let newMessage = {
+        id: 7,
+        message:state.dialogsPage.newMessageText
+    };
+    state.dialogsPage.messages.push(newMessage);
+    state.dialogsPage.newMessageText = "";
+    rerenderEntireTree(state);
+}
+
+export const updateMessageText = (lastMessage) => {
+
+    state.dialogsPage.newMessageText = lastMessage;
+    rerenderEntireTree(state);
+};
+
 
 export const addPost = () => {
     let newPost = {
