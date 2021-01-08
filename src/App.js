@@ -7,11 +7,12 @@ import Profile from './components/Profile/Profile';
 import Dialogs from './components/Dialogs/Dialogs';
 //import {BrowserRouter} from "react-router-dom";
 import {BrowserRouter, Route} from "react-router-dom"
-import state from "./components/redux/state";
+import state from "./components/redux/store";
 
 
 
 const App = (props) => {
+    debugger;
     return (
             <div className="app-wrapper">
                 <Header/>
