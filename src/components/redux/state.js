@@ -1,79 +1,79 @@
 
-let rerenderEntireTree = () => {
-    console.log('State changed');
-}
-
-let state = {
-    profilePage: {
-        posts: [
-            {id: 1, message: 'Hi, howe are you?', likesCount: 22},
-            {id: 2, message: 'It\'s my first posts', likesCount: 77},
-            {id: 2, message: 'Yaaaaa', likesCount: 11},
-            {id: 2, message: 'Woowww', likesCount: 3}
-        ],
-        newPostText: 'Hello React'
+let store = {
+    _state: {
+        profilePage: {
+            posts: [
+                {id: 1, message: 'Hi, howe are you?', likesCount: 22},
+                {id: 2, message: 'It\'s my first posts', likesCount: 77},
+                {id: 2, message: 'Yaaaaa', likesCount: 11},
+                {id: 2, message: 'Woowww', likesCount: 3}
+            ],
+            newPostText: 'Hello React'
+        },
+        dialogsPage: {
+            messages:[
+                {id: 1, message: 'Hallow'},
+                {id: 2, message: 'How are you?'},
+                {id: 3, message: 'Super pupper!!'},
+                {id: 4, message: 'Yo!!'},
+                {id: 5, message: 'Yo!!'},
+                {id: 6, message: 'Youuu!!'},
+            ],
+            dialogs:[
+                {id: 1, name: 'Valdemar'},
+                {id: 2, name: 'Andrey'},
+                {id: 3, name: 'Sveta'},
+                {id: 4, name: 'Sanya'},
+                {id: 5, name: 'Viktar'},
+                {id: 6, name: 'Max'},
+            ],
+            newMessageText:'LIFE IS GOOD!'
+        }
     },
-    dialogsPage: {
-    messages:[
-        {id: 1, message: 'Hallow'},
-        {id: 2, message: 'How are you?'},
-        {id: 3, message: 'Super pupper!!'},
-        {id: 4, message: 'Yo!!'},
-        {id: 5, message: 'Yo!!'},
-        {id: 6, message: 'Youuu!!'},
-    ],
-        dialogs:[
-            {id: 1, name: 'Valdemar'},
-            {id: 2, name: 'Andrey'},
-            {id: 3, name: 'Sveta'},
-            {id: 4, name: 'Sanya'},
-            {id: 5, name: 'Viktar'},
-            {id: 6, name: 'Max'},
-        ],
-        newMessageText:'LIFE IS GOOD!'
-}
-}
+    getState() {
+        return this._state;
+    },
+    _callSubscriber () {
+        console.log('State changed');
+},
+    addMessage() {
+        let newMessage = {
+            id: 7,
+            message:this._state.dialogsPage.newMessageText
+        };
+        this._state.dialogsPage.messages.push(newMessage);
+        this._state.dialogsPage.newMessageText = "";
+        this._callSubscriber(this._state);
+    },
+    updateMessageText(lastMessage) {
 
-window.state = state;
+        this._state.dialogsPage.newMessageText = lastMessage;
+        this._callSubscriber(this._state);
+    },
+    addPost() {
+        let newPost = {
+            id: 5,
+            message:this._state.profilePage.newPostText,
+            likesCount: 0
+        };
 
-export const addMessage = () => {
-    let newMessage = {
-        id: 7,
-        message:state.dialogsPage.newMessageText
-    };
-    state.dialogsPage.messages.push(newMessage);
-    state.dialogsPage.newMessageText = "";
-    rerenderEntireTree(state);
-}
+        this._state.profilePage.posts.push(newPost);
+        this._state.profilePage.newPostText = '';
+        this._callSubscriber(this._state);
+    },
+    updateNewPostText(newText) {
 
-export const updateMessageText = (lastMessage) => {
+        this._state.profilePage.newPostText = newText;
+        this._callSubscriber(this._state);
+    },
+    subscribe (observer) {
+        this._callSubscriber = observer;
 
-    state.dialogsPage.newMessageText = lastMessage;
-    rerenderEntireTree(state);
-};
+    }
 
-
-export const addPost = () => {
-    let newPost = {
-        id: 5,
-        message:state.profilePage.newPostText,
-        likesCount: 0
-    };
-
-    state.profilePage.posts.push(newPost);
-    state.profilePage.newPostText = '';
-    rerenderEntireTree(state);
-}
-
-export const updateNewPostText = (newText) => {
-
-    state.profilePage.newPostText = newText;
-    rerenderEntireTree(state);
-}
-
-export const subscribe= (observer) => {
-   rerenderEntireTree = observer;
 
 }
 
-export default state;
+
+window.store = store;
+export default store;
