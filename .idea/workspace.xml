@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e744c47-7a91-4efa-b0e5-32ca0c59973a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/redux/dialogs-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/redux/sidebar-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\redux" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs\Message" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs\DialogItem" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Profile\Profileinfo" />
-      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs" />
@@ -86,7 +89,7 @@
       <workItem from="1609940906753" duration="70000" />
       <workItem from="1610027170396" duration="28541000" />
       <workItem from="1610090597088" duration="2526000" />
-      <workItem from="1610121126447" duration="11690000" />
+      <workItem from="1610121126447" duration="15251000" />
     </task>
     <servers />
   </component>
