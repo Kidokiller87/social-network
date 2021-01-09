@@ -26,7 +26,9 @@ let onPostChange = (e) => {
            <h3>My posts</h3>
             <div>
                 <div>
-                    <textarea onChange={onPostChange} value={props.newPostText}/>
+                    <textarea onChange={onPostChange}
+                              placeholder='Enter your message'
+                              value={props.newPostText}/>
                 </div>
                 <div>
                     <button onClick={onAddPost} >Add post</button>
