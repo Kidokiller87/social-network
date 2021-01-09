@@ -22,9 +22,9 @@ const App = (props) => {
                     <Route path='/profile' component={Profile} />*/}
 
                     <Route path='/dialogs'
-                           render={ () => <DialogsContainer store={props.store}/>} />
+                           render={ () => <DialogsContainer />} />
                     <Route path='/profile'
-                           render={ () => <Profile store={props.store}/>}/>
+                           render={ () => <Profile />}/>
 
                 </div>
             </div>
