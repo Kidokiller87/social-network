@@ -11,11 +11,12 @@ import {BrowserRouter} from "react-router-dom";
 
 
 let rerenderEntireTree = (state) => {
-    debugger;
+
     ReactDOM.render(
         <BrowserRouter>
             <React.StrictMode>
-                <App state = {state}
+                <App store = {store}
+                     state = {state}
                      dispatch={store.dispatch.bind(store)}/>
             </React.StrictMode>
         </BrowserRouter>,
