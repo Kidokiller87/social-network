@@ -8,6 +8,10 @@ grid-template-columns: 2fr 10fr;
     padding: 10px;
     color: black;
 }
+.dialogsItems a {
+    color: black;
+}
+
 .dialogsItems .active {
     color: gold;
 }
