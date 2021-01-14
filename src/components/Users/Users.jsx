@@ -42,7 +42,8 @@ let Users = (props) => {
                                     }
                                 })
                                     .then(response => {
-                                        if (response.data.ResultCode ==0) {
+                                        debugger
+                                        if (response.data.resultCode ===0) {
                                             props.unfollow(u.id);
                                         }
                                         props.toggleFollowingProgress(false, u.id);
@@ -59,7 +60,7 @@ let Users = (props) => {
                                     }
                                 })
                                     .then(response => {
-                                        if (response.data.ResultCode ==0) {
+                                        if (response.data.resultCode ===0) {
                                             props.follow(u.id);
                                         }
                                         props.toggleFollowingProgress(false, u.id);
