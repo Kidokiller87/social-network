@@ -20,7 +20,7 @@ export const usersAPI = {
         return instance.get(`auth/me`)
             .then(response => {
                 return response.data
-            })
+            });
     },
     follow (userId) {
 
@@ -30,6 +30,11 @@ export const usersAPI = {
     unfollow(userId) {
 
         return instance.delete(`follow/${userId}`)
+
+    },
+    getProfile (userId) {
+
+       return instance.get(`profile/${userId}`)
 
     }
 }

@@ -1,10 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from './components/Navbar/Navbar';
-import Dialogs from './components/Dialogs/Dialogs';
-//import {BrowserRouter} from "react-router-dom";
 import {BrowserRouter, Route} from "react-router-dom"
-import state from "./components/redux/store";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";

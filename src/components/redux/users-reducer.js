@@ -86,9 +86,9 @@ export const getUsers = (currentPage, pageSize) => {
             dispatch(setUsers(data.items));
             dispatch(setTotalUsersCount(data.totalCount));
         });
-    };
+    }
 
-};
+}
 export const follow = (userId) => {
     return (dispatch) => {
         dispatch(toggleFollowingProgress(true, userId));
