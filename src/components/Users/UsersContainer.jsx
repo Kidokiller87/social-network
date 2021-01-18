@@ -54,7 +54,7 @@ let mapStateToProps = (state)=> {
         isFetching: state.usersPage.isFetching,
         followingInProgress: state.usersPage.followingInProgress
     }
-}
+};
 
 /*let mapDispatchToProps = (dispatch) => {
     return {
