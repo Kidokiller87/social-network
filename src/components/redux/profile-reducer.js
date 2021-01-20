@@ -1,5 +1,5 @@
 import {profileAPI, usersAPI} from "../../api/api";
-import {toggleFollowingProgress, unfollowSuccess} from "./users-reducer";
+
 
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
