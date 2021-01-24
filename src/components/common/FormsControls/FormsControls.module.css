@@ -9,3 +9,9 @@
 {
     color: #ff0000;
 }
+
+.formSummaryError {
+    border: red 1px solid;
+    pading: 5px;
+    color: red;
+}
