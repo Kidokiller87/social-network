@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e744c47-7a91-4efa-b0e5-32ca0c59973a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/redux/profile-reducer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/Profileinfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -52,13 +54,14 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Profile\Profileinfo" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\redux" />
+      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Profile\Profileinfo" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Header" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Profile" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Users" />
@@ -69,7 +72,46 @@
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.after deleting length of messages should br decrement">
+    <configuration name="after deleting length of messages should br decrement" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="after deleting length of messages should br decrement" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="length of posts should be incremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="length of posts should be incremented" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="message of new post should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/redux/profile-reducer.test.js" />
+      <test-names>
+        <test-name value="message of new post should be correct" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -80,6 +122,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.after deleting length of messages should br decrement" />
+        <item itemvalue="Jest.length of posts should be incremented" />
+        <item itemvalue="Jest.message of new post should be correct" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,7 +181,10 @@
       <workItem from="1611640052612" duration="1868000" />
       <workItem from="1611683552531" duration="6068000" />
       <workItem from="1611727013916" duration="2118000" />
-      <workItem from="1611775659135" duration="1372000" />
+      <workItem from="1611775659135" duration="2525000" />
+      <workItem from="1611813766721" duration="3083000" />
+      <workItem from="1611836383662" duration="1358000" />
+      <workItem from="1611855239626" duration="4674000" />
     </task>
     <servers />
   </component>
@@ -186,6 +238,12 @@
           <url>file://$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatus.jsx</url>
           <line>12</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/redux/profile-reducer.test.js</url>
+          <line>34</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
