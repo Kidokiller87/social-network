@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e744c47-7a91-4efa-b0e5-32ca0c59973a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/redux/profile-reducer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,8 @@
       <workItem from="1611775659135" duration="2525000" />
       <workItem from="1611813766721" duration="3083000" />
       <workItem from="1611836383662" duration="1358000" />
-      <workItem from="1611855239626" duration="4674000" />
+      <workItem from="1611855239626" duration="5449000" />
+      <workItem from="1611910417571" duration="2474000" />
     </task>
     <servers />
   </component>
@@ -242,7 +243,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/redux/profile-reducer.test.js</url>
           <line>34</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
