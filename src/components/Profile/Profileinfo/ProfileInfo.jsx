@@ -12,7 +12,7 @@ const ProfileInfo = ({profile, status,updateStatus}) => {
     return (
         <div>
             <div>
-                <img src="https://i.pinimg.com/564x/1f/5b/d7/1f5bd7c6d0e08078a9a6344459f5d754.jpg"/>
+                <img src="https://i.pinimg.com/564x/3a/1d/b8/3a1db894b8ef2283230307ffe7cf31b3.jpg"/>
             </div>
 
             <div className = {s.descriptionBlock}>
