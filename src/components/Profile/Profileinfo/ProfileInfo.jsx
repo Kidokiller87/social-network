@@ -11,9 +11,9 @@ const ProfileInfo = ({profile, status,updateStatus}) => {
 
     return (
         <div>
-{/*            <div>
-                <img src="https://t4.ftcdn.net/jpg/03/76/63/37/360_F_376633784_QFdVNtPwVroiMwK3Wn33D4HQp0AiVIkl.jpg"/>
-            </div>*/}
+            <div>
+                <img src="https://i.pinimg.com/564x/1f/5b/d7/1f5bd7c6d0e08078a9a6344459f5d754.jpg"/>
+            </div>
 
             <div className = {s.descriptionBlock}>
               <img src={profile.photos.large}/>

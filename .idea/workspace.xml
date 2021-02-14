@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e744c47-7a91-4efa-b0e5-32ca0c59973a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/Profileinfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/Paginator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -57,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\common\Paginator" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Profile\Profileinfo" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Users" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\redux" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Header" />
-      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Profile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\common\Paginator" />
@@ -70,32 +78,32 @@
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
-    <configuration name="ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Paginator component tests.If pagesCount more then 10 Button NEXT should be present">
+    <configuration name="Paginator component tests.If pagesCount more then 10 Button NEXT should be present" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatus.test.jsx" />
+      <test-file value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" />
       <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="after creation &lt;input&gt; shouldn't be displayed" />
+        <test-name value="Paginator component tests" />
+        <test-name value="If pagesCount more then 10 Button NEXT should be present" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="ProfileStatus component.after creation &lt;span&gt; should be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Paginator component tests.Page count is 11 but should be showed only 10" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatus.test.jsx" />
+      <test-file value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" />
       <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="after creation &lt;span&gt; should be displayed" />
+        <test-name value="Paginator component tests" />
+        <test-name value="Page count is 11 but should be showed only 10" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -153,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Paginator component tests.If pagesCount more then 10 Button NEXT should be present" />
+        <item itemvalue="Jest.Paginator component tests.Page count is 11 but should be showed only 10" />
         <item itemvalue="Jest.ProfileStatus component.callback should be called" />
         <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode instead of span" />
         <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should contains correct status" />
-        <item itemvalue="Jest.ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" />
-        <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should be displayed" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +231,7 @@
       <workItem from="1612545925982" duration="924000" />
       <workItem from="1612935837239" duration="599000" />
       <workItem from="1613302888743" duration="7112000" />
+      <workItem from="1613315546561" duration="7752000" />
     </task>
     <servers />
   </component>
