@@ -15,7 +15,8 @@ const LoginForm = ({handleSubmit, error}) => {
         {createField(null, 'rememberMe', null, Input, {type: 'checkbox'}, 'remember me')}
                {error && <div className={style.formSummaryError}>
             {error}
-        </div>}
+        </div>
+               }
         <div>
             <button>Login</button>
         </div>
