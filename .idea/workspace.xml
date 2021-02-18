@@ -4,9 +4,10 @@
     <list default="true" id="7e744c47-7a91-4efa-b0e5-32ca0c59973a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/app-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +227,8 @@
       <workItem from="1613302888743" duration="7112000" />
       <workItem from="1613315546561" duration="11781000" />
       <workItem from="1613410042845" duration="12849000" />
-      <workItem from="1613578587940" duration="13154000" />
+      <workItem from="1613578587940" duration="16253000" />
+      <workItem from="1613632276352" duration="3527000" />
     </task>
     <servers />
   </component>
