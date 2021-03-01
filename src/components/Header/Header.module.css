@@ -1,12 +1,15 @@
 .header {
     grid-area: h;
-    background-color: rgb(255, 217, 2);
+    background-color: rgb(174, 174, 161);
     }
-    
+.header h1 {
+    text-align: center;
+}
     .header img {
       width: 120px;
-       
     }
+
+
     .loginBlock {
 float: right;
         color: black;
@@ -15,3 +18,4 @@ float: right;
 .loginBlock a {
     color: black;
 }
+

@@ -4,10 +4,16 @@
     <list default="true" id="7e744c47-7a91-4efa-b0e5-32ca0c59973a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatusWithHooks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/app-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/Profileinfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -66,8 +72,8 @@
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\redux" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\common\Paginator" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\assets\images" />
+      <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\common\Paginator" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\assies\images" />
       <recent name="E:\MYSTUDY\JAVASCRIPT\REACT\Reactproject\01-first-project\my-app\src\components\Dialogs" />
     </key>
@@ -228,7 +234,13 @@
       <workItem from="1613315546561" duration="11781000" />
       <workItem from="1613410042845" duration="12849000" />
       <workItem from="1613578587940" duration="16253000" />
-      <workItem from="1613632276352" duration="3527000" />
+      <workItem from="1613632276352" duration="18154000" />
+      <workItem from="1613654035487" duration="4448000" />
+      <workItem from="1613768518341" duration="599000" />
+      <workItem from="1613976551907" duration="1246000" />
+      <workItem from="1614086065851" duration="1814000" />
+      <workItem from="1614530603575" duration="1252000" />
+      <workItem from="1614620634036" duration="581000" />
     </task>
     <servers />
   </component>
